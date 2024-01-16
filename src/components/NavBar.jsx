@@ -28,7 +28,7 @@ function NavBar({ loggedInUser, handleLogout, pretrazi }) {
                 <button type="submit" className='dugmePretraga'  ><BsSearch></BsSearch></button>
               </li>
               <li className="nav__item nav__item--link">
-                <Link to='/profile'> </Link>
+                <Link to='/profile'> PROFILE </Link>
               </li>
               <li className="nav__item nav__item--link">
                 <Link to='/home'>HOME </Link>
