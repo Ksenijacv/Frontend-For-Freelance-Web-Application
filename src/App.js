@@ -3,6 +3,7 @@ import { BrowserRouter,Route,Routes, Navigate  } from 'react-router-dom';
 import LoginForm from './components/LoginForm.jsx';
 import React, { useState } from 'react';
 import NavBar from './components/NavBar.jsx';
+import Home from './components/Home.jsx';
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/"
             element={loggedInUser ? <Navigate to="/home" /> : <LoginForm onLogin={handleLogin} />}
+          />
+          <Route 
+            path="/home" 
+            element={<Home loggedInUser={loggedInUser} />} 
           />
           
         </Routes>
