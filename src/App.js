@@ -6,6 +6,7 @@ import NavBar from './components/NavBar.jsx';
 import Home from './components/Home.jsx';
 import Services from './components/Services.jsx';
 import About from './components/About.jsx';
+import Profile from './components/Profile.jsx';
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -47,6 +48,12 @@ function App() {
             path="/about" 
             element={<About/>} 
           />
+
+          <Route
+            path="/profile"
+            element={loggedInUser ? <Profile loggedInUser={loggedInUser} /> : <Navigate to="/" />}
+          />
+
         </Routes>
       </BrowserRouter>
     
