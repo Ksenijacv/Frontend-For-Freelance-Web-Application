@@ -4,6 +4,7 @@ import LoginForm from './components/LoginForm.jsx';
 import React, { useState } from 'react';
 import NavBar from './components/NavBar.jsx';
 import Home from './components/Home.jsx';
+import Services from './components/Services.jsx';
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -34,9 +35,12 @@ function App() {
           />
           <Route 
             path="/home" 
-            element={<Home loggedInUser={loggedInUser} />} 
+            element={<Home/>} 
           />
-          
+          <Route 
+            path="/services" 
+            element={<Services  kriterijum={uslovPretrage} />} 
+          />
         </Routes>
       </BrowserRouter>
     
