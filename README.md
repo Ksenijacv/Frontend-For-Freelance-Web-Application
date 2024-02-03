@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# IT Freelance React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the IT Freelance React Application, a powerful platform designed to connect users with freelance services in the IT industry. With a focus on user experience and functionality, this application offers a range of features to enhance user engagement and satisfaction.
 
-## Available Scripts
+## Features:
 
-In the project directory, you can run:
+### User Authentication:
+- Users can securely log in to the application, ensuring access control and data privacy.
 
-### `npm start`
+### Service Exploration:
+- Explore detailed information about the application and its offerings, providing users with insights into available services.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Service Listings:
+- View a comprehensive list of currently available services, enabling users to browse and select services that meet their requirements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Service Rating:
+- Users can rate services on a scale of 1 to 5, offering valuable feedback to service providers and enhancing overall service quality.
 
-### `npm test`
+### User Profile Management:
+- Access and manage user profiles, including personal information and profile pictures, providing users with a personalized experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Logout Functionality:
+- Seamlessly log out of the application with the click of a button, ensuring a smooth user experience.
 
-### `npm run build`
+### Service Search:
+- Utilize the built-in search functionality to find services based on the name of the service provider offering them, enhancing user convenience and efficiency.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To deploy and run the IT Freelance React Application locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the project repository to your local machine.
+2. Install the necessary dependencies using npm.
+3. Start the development server using the appropriate npm command.
+5. Access the application through your preferred web browser and explore its features and functionalities (localhost:3000).
 
-### `npm run eject`
+## Screenshots of The Application:
+### Login page
+<p align="center">
+  <img width="80%" src="images/login.png">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Homepage
+-On the homepage user can view all ports that are in the database system, search them by name and sort them.
+ <p align="center">
+  <img width="80%" src="images/home.png">
+</p> 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Services
+<p align="center">
+  <img width="80%" src="images/services.png">
+</p> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### About
+<p align="center">
+  <img width="80%" src="images/about.png">
+</p> 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
